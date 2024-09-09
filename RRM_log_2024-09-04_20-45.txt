@@ -1,0 +1,50 @@
+(20:45) CI-202: Max of 3 retries reached
+Traceback (most recent call last):
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/RicohReader.py", line 495, in __init__
+    printer_model=tk.Label(self, text=get(printer['IP'], 'public',
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/venv/lib/python3.12/site-packages/puresnmp/api/pythonic.py", line 56, in get
+    raw_value = raw.get(ip, community, oid, port, timeout=timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/venv/lib/python3.12/site-packages/puresnmp/api/raw.py", line 70, in get
+    result = multiget(
+             ^^^^^^^^^
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/venv/lib/python3.12/site-packages/puresnmp/api/raw.py", line 96, in multiget
+    response = send(ip, port, to_bytes(packet), timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/venv/lib/python3.12/site-packages/puresnmp/transport.py", line 61, in send
+    raise Timeout("Max of %d retries reached" % RETRIES)
+puresnmp.exc.Timeout: Max of 3 retries reached
+
+(20:45) SDW-FL2: list index out of range
+Traceback (most recent call last):
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/RicohReader.py", line 581, in __init__
+    style=parent.parent.styles[i][0])
+          ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+(20:50) CI-202: Max of 3 retries reached
+Traceback (most recent call last):
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/RicohReader.py", line 495, in __init__
+    printer_model=tk.Label(self, text=get(printer['IP'], 'public',
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/venv/lib/python3.12/site-packages/puresnmp/api/pythonic.py", line 56, in get
+    raw_value = raw.get(ip, community, oid, port, timeout=timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/venv/lib/python3.12/site-packages/puresnmp/api/raw.py", line 70, in get
+    result = multiget(
+             ^^^^^^^^^
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/venv/lib/python3.12/site-packages/puresnmp/api/raw.py", line 96, in multiget
+    response = send(ip, port, to_bytes(packet), timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/venv/lib/python3.12/site-packages/puresnmp/transport.py", line 61, in send
+    raise Timeout("Max of %d retries reached" % RETRIES)
+puresnmp.exc.Timeout: Max of 3 retries reached
+
+(20:50) SDW-FL2: list index out of range
+Traceback (most recent call last):
+  File "/Users/danielbaez/Documents/GitHub/Ricoh-Resource-Monitor/RicohReader.py", line 581, in __init__
+    style=parent.parent.styles[i][0])
+          ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
