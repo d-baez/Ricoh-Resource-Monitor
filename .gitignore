@@ -15,6 +15,7 @@ build/RicohReader/localpycs/pyimod03_ctypes.pyc
 build/RicohReader/localpycs/pyimod04_pywin32.pyc
 build/RicohReader/localpycs/struct.pyc
 dist/RicohReader.exe
+dist/Printers.pkl
 
 # Local printer list and error logs
 Printers.json

@@ -232,7 +232,7 @@ class MainApplication(tk.Frame):
             self.styles[color] = (style_name, color.capitalize())
 
         #Define window properties
-        root.title('Ricoh Resource Monitor v3.6.2')
+        root.title('Ricoh Resource Monitor v3.6.3')
         if 'nt' == os.name:
             root.iconbitmap(resource_path('images/icon.ico'))
 
@@ -594,7 +594,7 @@ class SelectionPane(tk.Frame):
             about_popup.iconbitmap(resource_path('images/icon.ico'))
         about_popup.lift()
         program_name=tk.Label(about_popup,
-                              text='Ricoh Resource Monitor v3.6.2',
+                              text='Ricoh Resource Monitor v3.6.3',
                               font=(None,14))
         program_name.pack()
         logo_canvas=tk.Canvas(about_popup, width=300, height=180)
